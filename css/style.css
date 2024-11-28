@@ -1,0 +1,368 @@
+
+
+.start{
+    background-color: #14287f;
+    display: flex;
+    padding-bottom: 40px;
+
+}
+:hover.thumbsicon{
+    animation: topdown 1s linear;
+}
+@keyframes topdown{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+:hover.profileIcon{
+   
+    animation:  topdown 1s  linear;
+    
+}
+@keyframes topdown {
+    0%{
+       transform: translateY(0px);
+    } 
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+:hover.hovImg{
+   
+    animation:  topdown 2s  linear;
+    
+}
+@keyframes topdown {
+    0%{
+       transform: translateY(0px);
+    } 
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+#cln{
+   
+   
+    animation:  topdown 2s infinite linear;
+    
+}
+@keyframes topdown {
+    0%{
+       transform: translateY(0px);
+    } 
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+.cleanHome{
+   
+    padding: 15px;
+    padding-top: 90px;
+
+}
+.helpU{
+    color: #ffc600;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Jost', sans-serif;
+    margin: 0px 0px 16px;
+    padding: 0px 0px 4px;
+}
+.cleanHomeheading{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 70px;
+    font-weight:bold;
+    margin: 0px 0px 8px;
+    
+}
+.safety{
+    font-size:14px;
+    color: #b0b6d4;
+    
+    font-family: 'Jost', sans-serif;
+    line-height: 1.8;
+}
+/* .btnStart,
+.btnQuick {
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 576px) {
+    .btnStart,
+    .btnQuick {
+        padding: 15px 30px;
+    } 
+} */
+.btnQuick{
+    margin-left: 15px;
+} 
+
+@media (min-width: 768px) {
+    .btnStart,
+    .btnQuick {
+        padding: 20px 47px;
+
+    }
+}
+
+.choose{
+    color: #279E64;
+    font-family: Jost,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 0px 14px;
+
+}
+.fast{
+    color: #13287D;
+    font-size: 48px;
+    font-family: Jost,sans-serif;
+    margin: 0px 0px 8px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+   
+
+    
+
+
+}
+.cleaningSrevice{
+    color: #83868c;
+    font-size: 15px;
+    font-family: Jost,sans-serif;
+    margin: 0px 0px 16px;
+    /* line-height: 2; */
+}
+.profileIcon{
+    background-color: #c5e9d8;
+    margin-bottom: 21px;
+    border-radius: 50%;
+    position: relative;
+    padding: 25px;
+    display: inline-block;
+    
+   
+
+}
+.easyText{
+    color: #13287d;
+    margin-bottom: 17px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-align: left;
+
+}
+.lorEasy{
+    margin-bottom: 19px;
+    color: #83868c;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: left;
+}
+.thumbsicon{
+    background-color: #ede0b3;
+    margin-bottom: 21px;
+    border-radius: 50%;
+    position: relative;
+    padding: 25px;
+    display: inline-block;
+
+}
+.top{
+    color: #13287d;
+    margin-bottom: 17px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-align: left;
+  
+
+}
+.lorTop{
+    margin-bottom: 19px;
+    color: #83868c;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: left;
+
+    
+}
+.icons{
+    display: flex;
+}
+.advertise{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+    text-align: left;
+    font-family: Jost;
+
+
+}
+
+.imgFocus{
+    background-image: url(../assets/focus.jpg);
+    /* height: 130vh; */
+   
+}
+.imgbg{
+    opacity:0.65;
+     background-color:rgb(19,40,125);
+}
+.image-container {
+    background-size: cover;
+    background-position: center;
+    transition: height 0.3s ease;
+    height: 100vh; /* Set height to 100vh */
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Set height to 100% */
+  }
+
+  .form-content {
+    flex-grow: 1;
+  }
+  .imgText{
+    padding-top: 35vh;
+    margin: auto;
+    padding-bottom: 35vh;
+  }
+  .list{
+    list-style-type: none;
+  }
+  .tellus{
+    line-height: 1.8;
+  }
+  .meet{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .team{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .ftr{
+    font-family: 'Jost', sans-serif;
+  }
+  :hover.imgbrt{
+    filter: brightness(50%);
+  }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .raj .cardImg{
+    height: 15vh;
+    width: 15vb;
+    border-radius: 50%;
+    margin: 0 auto; 
+    
+   }
+  .cardPara{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+
+  }
+  .feedback{
+    font-weight: bolder;
+  }
+  .happyText{
+    font-size: 2.8rem;
+    font-weight: bolder;
+  }
+  .cardcarousel{
+    background-color:  #eff2f7;
+  }
+  
+  .booknow {
+    border-radius: 60px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px;
+    
+  }
+
+  .main_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1 0 calc(33.33% - 20px); /* Three cards per row */
+    margin: 10px;
+    max-width: 18rem; /* Set maximum width for each card */
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: calc(50% - 20px); /* Two cards per row */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .card {
+      flex-basis: calc(100% - 20px); /* One card per row */
+    }
+    
+  }
+
+  :hover.sendmsg{
+    background-color: #279E64;
+
+  }
+  .cardImgnew {
+    height: 100vh;
+    width: 140vb;
+    margin: 0 auto;
+}
+/* .formpad{
+  padding: 30px;
+}
+   */
+   .btnspn{
+    align-items: center;
+   }
+
+
+
+
+
